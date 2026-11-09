@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "touch-controls",
+  "name": "Touch Controls",
+  "version": "1.0.0",
+  "author": "Omni",
+  "description": "360° convertible laptop touch controls: virtual keyboard, display rotation, and tablet keyboard lock",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "TouchWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Touch Controls",
+    "description": "Quick bar buttons for virtual keyboard, screen rotation, and tablet keyboard lock",
+    "category": "Controls",
+    "defaultSection": "right"
+  }
+}
