@@ -37,6 +37,17 @@ Omarchy will validate the manifest and place the widget into your top bar automa
 
 ---
 
+## 🗑️ Removal
+
+To disable or remove the plugin:
+
+```bash
+omarchy plugin disable touch-controls
+omarchy plugin remove touch-controls
+```
+
+---
+
 ## 🎨 Theme Synchronization (Optional Hook)
 
 To make `wvkbd` automatically reload its palette when you switch Omarchy desktop themes:
